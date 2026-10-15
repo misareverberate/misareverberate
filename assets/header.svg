@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="280" viewBox="0 0 1200 280" role="img" aria-labelledby="title desc">
+<title id="title">misareverberate — late night workspace</title>
+<desc id="desc">A quiet midnight desk with a terminal, books, moonlit purple city and stars.</desc>
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#090b16"/><stop offset=".55" stop-color="#17132b"/><stop offset="1" stop-color="#090d19"/></linearGradient>
+  <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#27204a"/><stop offset="1" stop-color="#76518c"/></linearGradient>
+  <linearGradient id="screen" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#15182d"/><stop offset="1" stop-color="#080b14"/></linearGradient>
+  <pattern id="stars" width="79" height="47" patternUnits="userSpaceOnUse"><circle cx="9" cy="11" r="1" fill="#d8baff" opacity=".7"/><circle cx="53" cy="31" r=".8" fill="#fff0df" opacity=".7"/><path d="M32 5v5M29.5 7.5h5" stroke="#c8a4ff" stroke-width=".7" opacity=".65"/></pattern>
+</defs>
+<rect width="1200" height="280" rx="12" fill="url(#bg)"/>
+<rect x="1" y="1" width="1198" height="278" rx="11" fill="none" stroke="#72539a" stroke-width="1.5"/>
+<rect x="735" y="16" width="426" height="177" rx="3" fill="#0b0c19" stroke="#57426f"/>
+<rect x="743" y="24" width="410" height="161" fill="url(#sky)"/>
+<rect x="743" y="24" width="410" height="161" fill="url(#stars)"/>
+<circle cx="1087" cy="53" r="19" fill="#f3d9c4"/><circle cx="1096" cy="45" r="18" fill="#34264f"/>
+<path d="M743 135L815 85 858 124 920 72 981 131 1038 92 1153 139V185H743Z" fill="#252244"/>
+<path d="M743 153L809 123 865 145 929 111 984 151 1050 124 1153 154V185H743Z" fill="#17192e"/>
+<path d="M743 164L781 151 781 185H743M797 145h20v40h-20m35-31h30v31h-30m44-39h19v39h-19m39-26h28v26h-28m39-35h18v35h-18m39-24h25v24h-25m39-33h20v33h-20m38-20h28v20h-28m40-30h21v30h-21m34-17h28v17h-28" fill="#f2a9c2" opacity=".42"/>
+<path d="M0 218L1200 204V280H0Z" fill="#0a0b14"/>
+<path d="M0 219L1200 205" stroke="#47335e" stroke-width="2"/>
+<!-- bookshelf -->
+<path d="M40 16H267V205H40Z" fill="#12101d" stroke="#40304e"/>
+<path d="M40 75H267M40 139H267M40 199H267" stroke="#6d4a59" stroke-width="5"/>
+<g fill="#41334f" stroke="#9a708c" stroke-width=".7"><path d="M53 29h15v43H53z"/><path d="M72 39h13v33H72z" fill="#69506c"/><path d="M90 22h19v50H90z" fill="#302a48"/><path d="M116 34h14v38h-14z" fill="#876078"/><path d="M137 25h17v47h-17z"/><path d="M161 42h12v30h-12z" fill="#66516d"/><path d="M181 19h19v53h-19z" fill="#302945"/><path d="M208 32h14v40h-14z" fill="#8a5d76"/><path d="M230 25h20v47h-20z"/><path d="M52 86h20v49H52z" fill="#8a6076"/><path d="M77 96h14v39H77z"/><path d="M97 82h19v53H97z" fill="#302944"/><path d="M124 91h14v44h-14z" fill="#72516f"/><path d="M145 83h22v52h-22z"/><path d="M175 99h15v36h-15z" fill="#6c4c67"/><path d="M198 85h18v50h-18z"/><path d="M222 94h26v41h-26z" fill="#76526e"/></g>
+<!-- monitor -->
+<path d="M319 79L629 67 641 194 327 202Z" fill="#05070d" stroke="#5e4878" stroke-width="2"/>
+<path d="M330 88L619 78 628 181 337 190Z" fill="url(#screen)"/>
+<g font-family="monospace" font-size="10" fill="#b89be9"><text x="350" y="111">~/misareverberate $</text><text x="350" y="131" fill="#e8c6d5">const idea = build();</text><text x="350" y="151" fill="#7d9ab9">// learn by making things</text><text x="350" y="171" fill="#c6a7e7">while (curious) explore();</text></g>
+<path d="M445 200L514 198 535 216 427 219Z" fill="#262139" stroke="#51406a"/>
+<!-- desk objects/books -->
+<path d="M40 233L224 228 241 244 54 252Z" fill="#33243d" stroke="#76516d"/><path d="M54 252L241 244V255L55 264Z" fill="#171523" stroke="#60435f"/>
+<path d="M54 222L207 219 224 228 40 233Z" fill="#6a475f" stroke="#a07886"/>
+<path d="M873 216h80v5h-80z" fill="#30243d"/><path d="M864 221h94v7h-94z" fill="#5c3d59"/><path d="M875 229h81v5h-81z" fill="#35263f"/>
+<!-- mug -->
+<path d="M660 182h48l-4 39h-39Z" fill="#29243b" stroke="#a37cae" stroke-width="1.5"/><path d="M708 190q25-3 19 15q-4 10-20 8" fill="none" stroke="#a37cae" stroke-width="4"/><circle cx="684" cy="197" r="7" fill="none" stroke="#a37cae"/><path d="M679 197h10M684 192v10" stroke="#a37cae"/>
+<!-- lamp -->
+<path d="M578 18L615 18 632 48 561 48Z" fill="#b98aab"/><path d="M596 48L596 64" stroke="#a67da9" stroke-width="3"/><path d="M564 48L632 48" stroke="#e9bfae" stroke-width="2"/>
+<path d="M564 49L532 129H667L632 49Z" fill="#d5a1bc" opacity=".06"/>
+<text x="72" y="104" fill="#c7a4ff" font-family="monospace" font-size="29" font-weight="700">misareverberate</text><rect x="333" y="80" width="10" height="28" fill="#dca8d1"/>
+<text x="74" y="132" fill="#d0bfdc" font-family="monospace" font-size="13">build · break · learn · repeat</text>
+<text x="75" y="163" fill="#987cb9" font-family="monospace" font-size="12">&gt; somewhere between code and curiosity</text>
+<text x="1010" y="235" fill="#bd9cd9" font-family="Georgia,serif" font-size="14" font-style="italic">better things</text><text x="1030" y="253" fill="#bd9cd9" font-family="Georgia,serif" font-size="14" font-style="italic">take time</text>
+</svg>
