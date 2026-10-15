@@ -2,14 +2,9 @@
 
 <img src="./assets/header.svg" alt="Quarto de estudos à noite, com computadores e cidade violeta ao fundo" width="100%" />
 
-<p>
-  <samp>CS student · builder of side projects · curious by default</samp>
-</p>
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=16&duration=2800&pause=900&color=B9A2FF&center=true&vCenter=true&width=560&lines=CS+student+from+Brazil;shipping+side+quests+after+midnight;usually+debugging+or+starting+something+new;still+figuring+things+out+%E2%9C%A6" alt="Animated intro" />
 
-<p>
-  <a href="https://github.com/misareverberate?tab=repositories"><img src="https://img.shields.io/badge/PROJECTS-211b35?style=for-the-badge&logo=github&logoColor=c9a7ff" alt="Projects" /></a>
-  <a href="https://github.com/misareverberate?tab=stars"><img src="https://img.shields.io/badge/EXPERIMENTS-211b35?style=for-the-badge&logo=githubsponsors&logoColor=c9a7ff" alt="Experiments" /></a>
-</p>
+<a href="https://github.com/misareverberate?tab=repositories">[ repos ]</a> · <a href="https://github.com/misareverberate?tab=projects">[ currently tinkering ]</a> · <a href="https://github.com/misareverberate?tab=stars">[ the stars ]</a>
 
 </div>
 
@@ -17,78 +12,64 @@
 
 <table>
 <tr>
-<td width="54%" valign="top">
+<td width="48%" valign="top">
 
-### about me 👾
+### ~/about
 
-I'm a Computer Science student from Brazil who likes figuring out how things work by building them.
+Computer Science student. Brazil.
 
-Most of my time goes into backend development, APIs, developer tools, experiments with AI, and games. I tend to have more ideas than free hours — so there's usually something new on the workbench.
+I like understanding how stuff works, then inevitably taking it apart to see if I can build my own version.
 
-<sub><code>status: probably building something</code></sub>
+Mostly backend, APIs, dev tools, weird little automations, AI experiments, and games. A lot of unfinished ideas; a few that escaped the folder.
 
-### the toolbox 🧰
+<img src="https://img.shields.io/badge/current_mood-late--night%20debugging-211b35?style=flat-square&labelColor=171128&color=5d4a86" alt="Current mood: late-night debugging" />
 
-**Languages & core**
+### ~/toolkit
 
-<img src="https://skillicons.dev/icons?i=ts,js,cpp,python&theme=dark" alt="TypeScript, JavaScript, C++ and Python" />
+<img src="https://skillicons.dev/icons?i=ts,js,cpp,python,nodejs,react,nextjs&theme=dark&perline=4" alt="TypeScript, JavaScript, C++, Python, Node.js, React and Next.js" />
 
-**Web & backend**
+<img src="https://skillicons.dev/icons?i=postgres,mongodb,supabase,docker,git,linux&theme=dark&perline=6" alt="PostgreSQL, MongoDB, Supabase, Docker, Git and Linux" />
 
-<img src="https://skillicons.dev/icons?i=nodejs,react,nextjs&theme=dark" alt="Node.js, React and Next.js" />
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/fastify/fastify-original.svg" width="36" height="36" alt="Fastify" />
 
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/fastify/fastify-original.svg" width="48" height="48" alt="Fastify" />
-
-**Data & tooling**
-
-<img src="https://skillicons.dev/icons?i=postgres,mongodb,supabase,docker,git,linux&theme=dark" alt="PostgreSQL, MongoDB, Supabase, Docker, Git and Linux" />
-
-### outside the editor 🌙
-
-Books, music, games, writing, and late-night rabbit holes. I like projects with a bit of personality — not just another tutorial clone.
+<sub>Also into: music, books, writing, game dev, and internet rabbit holes.</sub>
 
 </td>
-<td width="46%" valign="top">
+<td width="52%" valign="top">
 
-### the workbench ✦
+### ~/projects <sub>— a few things from the pile</sub>
 
-<a href="https://github.com/misareverberate/dev-link"><img src="https://img.shields.io/badge/DevSignal-AI%20%2B%20GitHub-29213f?style=for-the-badge&logo=github&logoColor=cbb7ff" alt="DevSignal" /></a>
+**[01 / DevSignal](https://github.com/misareverberate/dev-link)**  
+Turn GitHub activity into social posts with a little help from AI.  
+<sub>Next.js · Fastify · TypeScript · Supabase</sub>
 
-Turn GitHub repository activity into platform-ready content with AI. Built around Next.js, Fastify, TypeScript, Supabase and OpenAI.
+**[02 / AI Commerce Readiness](https://github.com/misareverberate/hackathon-deco)**  
+An agent that checks an online store and returns a score, opportunities, and a practical action plan.
 
-<a href="https://github.com/misareverberate/hackathon-deco"><img src="https://img.shields.io/badge/AI%20Commerce%20Readiness-Agent-29213f?style=for-the-badge&logo=react&logoColor=cbb7ff" alt="AI Commerce Readiness Agent" /></a>
+**[03 / GitLab Flow CLI](https://github.com/misareverberate/gitlab-flow-cli)**  
+Less ceremony around issues, branches, and merge requests.
 
-An agent that audits e-commerce readiness and produces an explainable report with prioritized opportunities and an action plan.
+**[04 / Blog API](https://github.com/misareverberate/Blog-Fastify)**  
+A small REST API for posts, built with Fastify and MongoDB.
 
-<a href="https://github.com/misareverberate/gitlab-flow-cli"><img src="https://img.shields.io/badge/GitLab%20Flow%20CLI-Developer%20tool-29213f?style=for-the-badge&logo=gitlab&logoColor=fc6d26" alt="GitLab Flow CLI" /></a>
+**[05 / Mother](https://github.com/misareverberate/mother)**  
+Product curation and deal-post automation for Telegram.
 
-A CLI for standardizing GitLab issues, branches and merge requests — less repetitive work, fewer workflow mistakes.
-
-<a href="https://github.com/misareverberate/Blog-Fastify"><img src="https://img.shields.io/badge/Blog%20API-Fastify%20%2B%20MongoDB-29213f?style=for-the-badge&logo=fastify&logoColor=white" alt="Blog API" /></a>
-
-A REST API with CRUD operations for blog posts, built with TypeScript, Fastify, MongoDB and Mongoose.
-
-<a href="https://github.com/misareverberate/mother"><img src="https://img.shields.io/badge/Mother-Automation-29213f?style=for-the-badge&logo=telegram&logoColor=8ecbff" alt="Mother" /></a>
-
-A product-curation workflow that prepares deal posts for review and automates publishing to Telegram.
-
-<p><sub>More experiments live in the <a href="https://github.com/misareverberate?tab=repositories">repository list</a>.</sub></p>
+<sub>Not everything is polished. Some repos are experiments, some are lessons, all are part of the process.</sub>
 
 </td>
 </tr>
 </table>
 
----
-
 <div align="center">
 
-### find me around
+### little activity window
 
-<a href="https://github.com/misareverberate"><img src="https://img.shields.io/badge/GitHub-211b35?style=for-the-badge&logo=github&logoColor=c9a7ff" alt="GitHub profile" /></a>
-<a href="https://github.com/misareverberate?tab=repositories"><img src="https://img.shields.io/badge/Repositories-211b35?style=for-the-badge&logo=git&logoColor=c9a7ff" alt="Repositories" /></a>
+<img src="https://github-readme-stats.vercel.app/api?username=misareverberate&show_icons=true&hide_title=true&hide_border=true&bg_color=0d0b14&text=c9c1df&icon=b9a2ff&title_color=b9a2ff" height="145" alt="GitHub stats" />
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=misareverberate&layout=compact&hide_border=true&bg_color=0d0b14&text=c9c1df&title_color=b9a2ff" height="145" alt="Most used languages" />
 
-<sub><code>keep making things · keep learning how they work</code></sub>
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:171128,50:38234f,100:171128&height=2&section=footer" width="100%" alt="" />
 
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:171128,50:38234f,100:171128&height=3&section=footer" width="100%" alt="" />
+<sub><code>make things · break things · learn something · repeat</code></sub>
 
 </div>
