@@ -1,6 +1,6 @@
 <div align="center">
 
-<a href="assets/after-hours.svg"><img src="assets/after-hours.svg" alt="Animated after-hours desk scene with a rainy violet city, terminal monitor, mug and keyboard" /></a>
+<a href="assets/after-hours.svg"><img src="assets/after-hours.svg" alt="Minimalist illustration of a black cat curled up on a windowsill, watching rain fall over a quiet violet-blue city at night" /></a>
 
 <sub>🇧🇷 [Leia em português](README.pt-BR.md)</sub>
 
