@@ -26,7 +26,7 @@ I have more ideas than time. Some become projects; some stay in a notes file unt
 
 <div align="center">
 
-<img src="assets/stack.svg" alt="Skill map: languages, frontend, backend, data and infra, AI and craft, each with a four-dot level meter" width="860" />
+<img src="assets/stack(1).svg" alt="Skill map: languages, frontend, backend, data and infra, AI and craft, each with a four-dot level meter" width="860" />
 
 </div>
 
