@@ -1,75 +1,56 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320" role="img" aria-labelledby="title desc">
-<title id="title">After hours — a workbench in progress</title>
-<desc id="desc">A hand-composed vector illustration of a late-night developer's workspace, with a rainy window, scattered notes, terminal panes, a tiny cat, and a small stack of unfinished ideas.</desc>
+<title id="title">A cat by a rainy window</title>
+<desc id="desc">A small dark cat curled up on a broad windowsill at night, with soft violet light and a quiet rainy city beyond the glass.</desc>
 <defs>
-  <linearGradient id="bg" x2="1" y2="1"><stop stop-color="#10101f"/><stop offset="1" stop-color="#21182f"/></linearGradient>
-  <linearGradient id="window" x2="0" y2="1"><stop stop-color="#202344"/><stop offset="1" stop-color="#765079"/></linearGradient>
-  <linearGradient id="desk" x2="0" y2="1"><stop stop-color="#51374e"/><stop offset="1" stop-color="#211a2c"/></linearGradient>
-  <pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse"><path d="M24 0H0V24" fill="none" stroke="#a997d6" stroke-opacity=".07"/></pattern>
+  <linearGradient id="room" x2="0" y2="1"><stop stop-color="#10101c"/><stop offset="1" stop-color="#191527"/></linearGradient>
+  <linearGradient id="night" x2="0" y2="1"><stop stop-color="#252642"/><stop offset="1" stop-color="#665071"/></linearGradient>
+  <linearGradient id="sill" x2="0" y2="1"><stop stop-color="#594057"/><stop offset="1" stop-color="#272033"/></linearGradient>
+  <radialGradient id="moonGlow"><stop stop-color="#c5a8ef" stop-opacity=".25"/><stop offset="1" stop-color="#c5a8ef" stop-opacity="0"/></radialGradient>
+  <filter id="soft"><feGaussianBlur stdDeviation="12"/></filter>
 </defs>
-<rect width="1200" height="320" rx="10" fill="url(#bg)"/>
-<rect width="1200" height="320" rx="10" fill="url(#grid)"/>
-<!-- Window: deliberately blocky, like a small pixel-art city sketch -->
-<rect x="34" y="28" width="535" height="218" rx="3" fill="#0c1020" stroke="#665178" stroke-width="2"/>
-<rect x="44" y="38" width="515" height="198" fill="url(#window)"/>
-<path d="M44 170l58-42 43 25 56-68 48 47 50-32 57 48 58-61 52 48 42-26 51 38v89H44Z" fill="#3b3158"/>
-<path d="M44 195l76-30 50 18 65-34 53 35 60-26 57 27 55-35 49 28 50-17v75H44Z" fill="#24263f"/>
-<g fill="#f1a8cb">
- <path d="M66 202h5v7h-5zM88 185h5v7h-5zM130 210h5v7h-5zM168 190h5v7h-5zM204 205h5v7h-5zM231 176h5v7h-5zM270 207h5v7h-5zM311 190h5v7h-5zM343 213h5v7h-5zM386 183h5v7h-5zM424 207h5v7h-5zM461 190h5v7h-5zM516 210h5v7h-5z"/>
+<rect width="1200" height="320" rx="10" fill="url(#room)"/>
+<!-- quiet window, no interface-like decorations -->
+<rect x="280" y="24" width="650" height="228" rx="4" fill="#090b16" stroke="#4e405f" stroke-width="3"/>
+<rect x="291" y="35" width="628" height="206" fill="url(#night)"/>
+<circle cx="785" cy="88" r="88" fill="url(#moonGlow)"/>
+<path d="M291 174l68-38 46 19 62-63 54 53 57-31 59 39 65-57 59 49 55-27 103 50v73H291Z" fill="#35304f"/>
+<path d="M291 199l75-26 54 18 73-32 61 29 64-22 67 28 67-32 57 23 69-18 61 21v53H291Z" fill="#24243d"/>
+<g fill="#e7b1d0" opacity=".78">
+ <rect x="329" y="195" width="5" height="8"/><rect x="354" y="184" width="5" height="8"/><rect x="395" y="207" width="5" height="8"/>
+ <rect x="433" y="188" width="5" height="8"/><rect x="471" y="204" width="5" height="8"/><rect x="518" y="180" width="5" height="8"/>
+ <rect x="554" y="205" width="5" height="8"/><rect x="603" y="189" width="5" height="8"/><rect x="649" y="209" width="5" height="8"/>
+ <rect x="694" y="186" width="5" height="8"/><rect x="739" y="202" width="5" height="8"/><rect x="783" y="180" width="5" height="8"/>
+ <rect x="828" y="201" width="5" height="8"/><rect x="873" y="187" width="5" height="8"/>
 </g>
-<g stroke="#b4b7ec" stroke-width="1" opacity=".45"><path d="M81 53l-8 19m61-7-8 19m112-22-8 19m70-5-8 19m91-13-8 19m89-7-8 19m69-3-8 19"/></g>
-<path d="M303 38v198M44 137h515" stroke="#0c1020" stroke-width="6"/>
-<!-- pinned notes: imperfect little shapes rather than polished tech motifs -->
-<path d="M594 38l142-5 4 72-143 6Z" fill="#e8c7a5" transform="rotate(-2 665 72)"/>
-<path d="M611 56l90-3m-89 13 70-2m-70 13 81-3m-80 13 49-2" stroke="#51405a" stroke-width="2" opacity=".85"/>
-<circle cx="665" cy="42" r="3" fill="#d36e91"/>
-<path d="M755 43l99 3-3 62-99-3Z" fill="#c9c2e7" transform="rotate(2 804 75)"/>
-<path d="M771 61l65 2m-65 10 52 2m-52 10 59 2" stroke="#51405a" stroke-width="2"/>
-<circle cx="805" cy="47" r="3" fill="#8d73bd"/>
-<!-- shelf and books -->
-<path d="M890 49h270v8H890z" fill="#73516e"/>
-<path d="M905 46V15h26v31m7 0V23h19v23m8 0V11h28v35m8 0V19h20v27m8 0V8h25v38m8 0V22h21v24" fill="#30253f" stroke="#8c668d" stroke-width="1.5"/>
-<text x="1038" y="39" font-family="monospace" font-size="10" fill="#d9c8ef">notes_untitled.txt</text>
-<!-- terminal monitor -->
-<path d="M632 125h364v133H626Z" fill="#090c17" stroke="#6f5b89" stroke-width="3"/>
-<rect x="642" y="136" width="341" height="110" fill="#15192a"/>
-<path d="M642 153h341" stroke="#39304d" stroke-width="1"/>
-<circle cx="653" cy="145" r="2.5" fill="#d7789b"/><circle cx="663" cy="145" r="2.5" fill="#d5b47a"/><circle cx="673" cy="145" r="2.5" fill="#9cc9b5"/>
-<g font-family="monospace" font-size="11">
- <text x="656" y="172" fill="#a4c9bc">~/workbench $</text><text x="758" y="172" fill="#e2d5ef"> git status</text>
- <text x="656" y="190" fill="#d5a0c5">modified:</text><text x="716" y="190" fill="#d4cbe7"> README.md</text>
- <text x="656" y="208" fill="#d5a0c5">untracked:</text><text x="720" y="208" fill="#d4cbe7"> one more idea</text>
- <text x="656" y="229" fill="#a4c9bc">keep going, anyway.</text>
+<!-- rain: restrained, thin strokes -->
+<g stroke="#b9b4e1" stroke-width="1.2" stroke-linecap="round" opacity=".32">
+ <path d="M324 49l-7 17m58 9-7 17m88-31-7 17m67 15-7 17m73-41-7 17m78 10-7 17m75-37-7 17m79 3-7 17m62-28-7 17m59 13-7 17m50-37-7 17"/>
 </g>
-<path d="M786 258v16h61v-16m-79 18h97l10 7H758Z" fill="#29243a" stroke="#665178" stroke-width="1.5"/>
-<!-- second tiny terminal / idea board -->
-<rect x="1016" y="91" width="147" height="133" fill="#0b0e19" stroke="#665178" stroke-width="2"/>
-<text x="1028" y="108" font-family="monospace" font-size="9" fill="#a997d6">/ideas</text>
-<g font-family="monospace" font-size="10" fill="#d9cbe9">
- <text x="1028" y="129">01  game loop</text><text x="1028" y="148">02  tiny tool</text><text x="1028" y="167">03  security lab</text><text x="1028" y="186">04  ???</text>
+<!-- frame -->
+<path d="M604 35v206M291 140h628" stroke="#11101e" stroke-width="7"/>
+<!-- wide sill with a little pool of reflected violet light -->
+<path d="M200 244Q590 233 1000 244l72 31H127Z" fill="url(#sill)" stroke="#735778" stroke-width="2"/>
+<path d="M157 276Q610 266 1070 276" fill="none" stroke="#9b77a4" stroke-opacity=".35" stroke-width="2"/>
+<ellipse cx="586" cy="254" rx="215" ry="15" fill="#b38bd8" opacity=".09" filter="url(#soft)"/>
+<!-- cat, the focal point -->
+<ellipse cx="600" cy="249" rx="118" ry="13" fill="#090a13" opacity=".48"/>
+<!-- curled body -->
+<path d="M496 238Q472 208 493 181Q517 151 568 169Q610 181 638 209Q665 232 705 219Q739 208 758 229Q774 247 751 258H513Q493 254 496 238Z" fill="#10111d" stroke="#65516f" stroke-width="2.5" stroke-linejoin="round"/>
+<path d="M520 221Q526 184 565 184Q606 184 633 218Q650 239 686 239" fill="none" stroke="#34283f" stroke-width="8" stroke-linecap="round"/>
+<!-- tail curling around paws -->
+<path d="M702 232Q735 228 739 247Q741 261 716 261Q691 260 680 246" fill="none" stroke="#0b0d18" stroke-width="17" stroke-linecap="round"/>
+<path d="M704 231Q732 231 734 247" fill="none" stroke="#51405f" stroke-width="2.5" stroke-linecap="round"/>
+<!-- head and ears -->
+<path d="M511 190L507 157Q506 150 514 156L536 171Q555 164 574 174L594 158Q602 152 602 163L600 192Q591 214 559 216Q527 215 511 190Z" fill="#11121e" stroke="#65516f" stroke-width="2.5" stroke-linejoin="round"/>
+<path d="M516 164l16 13-13 8Z M589 165l-14 13 13 8Z" fill="#8e628b" opacity=".75"/>
+<!-- sleepy eyes, tiny nose and whiskers -->
+<path d="M529 190q7 6 14 0m20 0q7 6 14 0" fill="none" stroke="#d7a5d0" stroke-width="2.8" stroke-linecap="round"/>
+<path d="M555 198l5 0-2.5 3.5Z" fill="#d28eaf"/>
+<path d="M552 203q5 5 10 0" fill="none" stroke="#9b718f" stroke-width="1.6" stroke-linecap="round"/>
+<g stroke="#9b8aa9" stroke-width="1.3" stroke-linecap="round" opacity=".75">
+ <path d="M528 199l-23-4m23 9-20 3m70-8 22-4m-22 9 20 3"/>
 </g>
-<path d="M1028 201h77" stroke="#a997d6" stroke-width="2" stroke-dasharray="3 4"/>
-<!-- desk and lived-in objects -->
-<path d="M0 270l1200-18v68H0Z" fill="url(#desk)"/>
-<path d="M0 270l1200-18" stroke="#9b7094" stroke-width="2"/>
-<!-- notebook -->
-<path d="M74 254l119-5 11 42-123 6Z" fill="#c7b7db" stroke="#79658f" stroke-width="2"/>
-<path d="M88 263l79-3m-77 10 65-3m-64 10 71-3" stroke="#51405a" stroke-width="1.5"/>
-<path d="M83 251l7 44" stroke="#8b6b9c" stroke-width="3"/>
-<!-- mug -->
-<path d="M245 253h44l-4 37q-19 8-36 0Z" fill="#30243f" stroke="#c28caf" stroke-width="2"/>
-<path d="M286 260q24-3 15 17q-5 8-17 5" fill="none" stroke="#c28caf" stroke-width="4"/>
-<path d="M254 248q-7-13 2-19m13 19q-5-12 4-19" fill="none" stroke="#a997d6" stroke-width="1.5" stroke-linecap="round"/>
-<text x="251" y="276" font-family="monospace" font-size="8" fill="#e6d5ee">brb</text>
-<!-- small cat, intentionally simple and hand-drawn -->
-<path d="M392 267l1-18 15 10q14-5 26 1l14-11 1 21q9 18-7 24h-43q-16-8-7-27Z" fill="#10111e" stroke="#8c719f" stroke-width="2"/>
-<path d="M405 278h4m15 0h4" stroke="#e5b4d0" stroke-width="2" stroke-linecap="round"/>
-<path d="M410 286q7 5 14 0" fill="none" stroke="#8c719f" stroke-width="1.5"/>
-<!-- keyboard -->
-<path d="M474 277l124-5 25 23-137 5Z" fill="#171624" stroke="#77618d" stroke-width="2"/>
-<g stroke="#8c719f" stroke-width="1"><path d="M486 282l124-5m-117 11 125-5m-116 11 123-5M500 278l8 22m22-23 8 22m22-23 8 22m22-24 8 22m22-23 8 22"/></g>
-<!-- handwritten-ish footer label -->
-<text x="38" y="306" font-family="monospace" font-size="10" letter-spacing="2" fill="#c1a9e8">FIELD NOTES / 001</text>
-<text x="1163" y="306" text-anchor="end" font-family="monospace" font-size="10" fill="#c1a9e8">still in progress</text>
-<rect x="1" y="1" width="1198" height="318" rx="9" fill="none" stroke="#5b476f" stroke-width="2"/>
+<!-- a couple of tiny, imperfect stars reflected in the glass -->
+<g fill="#d7c2ee" opacity=".85"><path d="M372 72l2 5 5 2-5 2-2 5-2-5-5-2 5-2Z"/><circle cx="841" cy="111" r="1.8"/><circle cx="459" cy="115" r="1.4"/></g>
+<rect x="1" y="1" width="1198" height="318" rx="9" fill="none" stroke="#4c3d5e" stroke-width="2"/>
 </svg>
