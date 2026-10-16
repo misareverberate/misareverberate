@@ -1,6 +1,6 @@
 <div align="center">
 
-<a href="assets/after-hours.svg"><img src="assets/after-hours.svg" alt="Minimalist illustration of a black cat curled up on a windowsill, watching rain fall over a quiet violet-blue city at night" /></a>
+<a href="assets/after-hours.svg"><img src="assets/Gato Neon Sob a Chuva.png" alt="Minimalist illustration of a black cat curled up on a windowsill, watching rain fall over a quiet violet-blue city at night" /></a>
 
 <sub>🇧🇷 [Leia em português](README.pt-BR.md)</sub>
 
